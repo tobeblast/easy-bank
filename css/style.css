@@ -1,9 +1,7 @@
-.header{
-    background-image: url(../image/bg-intro-desktop.svg) !important;
+/* .header{
+    background: url(../image/bg-intro-desktop.svg) !important;
     background-repeat: no-repeat;
-    background-size: 170vh;
-    background-position: 228%;    
-}
+} */
 
 .pos{
     position: absolute;
@@ -49,6 +47,7 @@
 
 .button2{
     color: white;
+    text-align: right;
 }
 
 .btn{
@@ -59,10 +58,7 @@
 
 @media (max-width:500px){
 
-    .header{
-        width: 100%;
-        background-image: url(/image/bg-intro-mobile.svg) !important;
-    }
+ 
 
     .pos {
         position: absolute;
@@ -137,9 +133,9 @@
         text-align: center;
     }
 
-    .img{
+    /* .img{
         flex-direction: column;
-    }
+    } */
 
     .text{
         width:100%;
@@ -156,6 +152,11 @@
     }
 
     .careers{
+        text-align: center;
+    }
+
+    .button2 {
+        color: white;
         text-align: center;
     }
 }

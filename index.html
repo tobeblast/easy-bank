@@ -8,14 +8,14 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <section class="container-fluid overflow-hidden position-relative">
-      <header class="container-fluid header vh-100 overflow-hidden">
+    <section class="container-fluid px-0 overflow-hidden position-relative">
+      <header class="container-fluid header vh-100 px-0 overflow-hidden">
         <nav
-          class="navbar container-fluid navbar-expand-lg bg-white w-100 position-fixed"
+          class="navbar container-fluid navbar-expand-lg bg-secondary text-white w-100 position-fixed"
           style="z-index: 1"
         >
           <div class="container">
-            <a class="navbar-brand ml-5" style="color: white" href="#"
+            <a class="navbar-brand ml-5" href="#"
               ><img src="./image/logo.svg" alt="Easybank logo"
             /></a>
             <button
@@ -33,34 +33,34 @@
               <ul class="navbar-nav ms-auto me-md-auto mb-2 mb-lg-0 mt-sm-2">
                 <li class="nav-item">
                   <a
-                    class="nav-link active"
-                    style="color: black"
+                    class="nav-link active text-white"
                     aria-current="page"
                     href="#"
                     >Home
                   </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color: black" href="#">About </a>
+                  <a class="nav-link text-white" href="#">About </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color: black" href="#">Contact </a>
+                  <a class="nav-link text-white" href="#">Contact </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color: black" href="#">Blog </a>
+                  <a class="nav-link text-white" href="#">Blog </a>
                 </li>
                 <li class="nav-item">
-                  <a class="nav-link" style="color: black" href="#">Careers</a>
+                  <a class="nav-link text-white" href="#">Careers</a>
                 </li>
               </ul>
             </div>
-            <button class="btn-tobe border-0 rounded-pill mt-2 ms-5">
+
+            <button class="btn-tobe border-0 px-3 py-1 rounded-pill mt-2 ms-5">
               Request Invite
             </button>
           </div>
         </nav>
 
-        <div class="text-black bg-body-tertiary p-5">
+        <div class="text-black bg-body-tertiary p-lg-5 p-2">
           <div class="tb">
             <h1
               style="
@@ -79,8 +79,10 @@
               one-stop-shop for spending, saving, budgeting, investing, and much
               more.
             </p>
+          </div>
 
-            <button class="btn border-0 rounded-pill mt-2 ms-5">
+          <div class="text-center text-lg-start">
+            <button class="btn border-0 rounded-pill mt-2">
               Request Invite
             </button>
           </div>
@@ -92,8 +94,8 @@
       </header>
 
       <!-- Mian section -->
-      <main class="container-fluid mb-5">
-        <div class="gray container-fluid vh-100 bg-secondary">
+      <main class="container-fluid px-0 mb-5">
+        <div class="gray container-fluid px-0 vh-100 bg-secondary">
           <div class="main-con container p-3">
             <h1 class="pb-3 pt-xl-5">Why choose Easybank?</h1>
             <p class="hub w-50">
@@ -140,17 +142,17 @@
           </div>
         </div>
 
-        <div class="late pt-5 container">
+        <div class="late pt-5 container-fluid">
           <h1>Latest Articles</h1>
-          <div class="img d-flex pt-3 w-100 g-5">
+          <div class="img row pt-3 g-5">
             <!-- money -->
-            <div class="currency">
+            <div class="currency col-lg-3">
               <div>
                 <img
                   src="./image/image-currency.jpg"
                   alt="different-currency"
-                  style="border-radius: 5px 5px 0 0"
-                  width="90%"
+                  style="border-radius: 5px 5px 0 0; height: 195px"
+                  width="100%"
                 />
               </div>
               <div class="text ms-3">
@@ -169,13 +171,14 @@
             </div>
 
             <!-- restaurant -->
-            <div class="restaurant">
+            <div class="restaurant col-lg-3">
               <div>
                 <img
                   src="./image/image-restaurant.jpg"
                   alt="restaurant"
                   style="border-radius: 5px 5px 0 0"
-                  width="90%"
+                  class="img-fluid"
+                  width="100%"
                 />
               </div>
               <div class="text ms-3">
@@ -193,13 +196,13 @@
             </div>
 
             <!-- plane -->
-            <div class="plane">
+            <div class="plane col-lg-3">
               <div>
                 <img
                   src="./image/image-plane.jpg"
                   alt="plane"
                   style="border-radius: 5px 5px 0 0"
-                  width="90%"
+                  width="100%"
                 />
               </div>
               <div class="text ms-3">
@@ -218,13 +221,13 @@
             </div>
 
             <!-- confetti -->
-            <div class="confetti">
+            <div class="confetti col-lg-3">
               <div>
                 <img
                   src="./image/image-confetti.jpg"
                   alt="confetti"
                   style="border-radius: 5px 5px 0 0"
-                  width="90%"
+                  width="100%"
                 />
               </div>
               <div class="text ms-3">
@@ -284,7 +287,7 @@
           </div>
 
           <div class="button2">
-            <button class="btn border-0 rounded-pill mt-2 ms-5 mb-4">
+            <button class="btn border-0 rounded-pill mt-2 mb-4">
               Request Invite
             </button>
             <p class="mt-2">© Easybank. All Rights Reserved</p>
